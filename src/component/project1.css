@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    div {
+        border: px solid red;
+    }
+}
+
+.main {
+    height: 100vh;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom:5px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.932);
+    gap: 20px;
+}
+
+.m1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.top1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+}
+
+.top2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    color: yellow;
+}
+
+.m10 {
+    position: absolute;
+    top: 250px;
+    right: 10px;
+    width: 10px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 0, 0.532);
+}
+
+.m2 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(7, 7, 7, 0.669);
+    color: white;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.m3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(97, 90, 90);
+}
+
+.p1 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.bottom2 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.y1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 2px;
+    background-color: rgb(97, 90, 90);
+}
+
+.n1 {
+    height: 25px;
+    width: 100px;
+    border-radius: 15px;
+    
+}
+
+.n2 {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.u1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color:  rgb(97, 90, 90);
+}
+
+.u2 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.u {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    margin-top: -52px;
+    height: 100px;
+    max-width: 100px;
+    margin-bottom: -20px;
+}
+
+.j1 {
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+}
